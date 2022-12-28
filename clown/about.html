@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=500px">
+    <!--------------FONT -------------->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <title>Black Store | About Us</title>
+</head>
+<body>
+    <!--------------- CSS --------------->
+    <style>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta';
+}
+body{
+    background-color: black;
+}
+
+.about .txt{
+    width: 550px;
+}
+.about div .pc{
+    
+    width: 45%;
+
+    height: 555px;
+
+    padding: 10px 20px;
+
+}
+.about div .ph{
+    display: none;
+}
+.about .txt{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.txt h1{
+    font-size: 50px;
+    color: #ff2000;
+}
+.txt h4{
+    font-size: 30px;
+    color: #ff452a;
+    padding: 10px 0;
+}
+.txt p{
+    font-size: 20px;
+    padding: 5px 0;
+    font-size: 20px;
+    padding: 5px 0;
+    color: white;
+    display: inline-block;
+    text-shadow: 1px 1px 2px black, 2px darkred, 0 0 2px red;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+    text-decoration-color: #ff452a;
+    text-underline-offset: 0.6rem; 
+}
+.but{
+    align-items: center;
+    text-align: center;
+    float: center;
+}
+.but a{
+    display: inline-block;
+    margin: 20px 0;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    float: center;
+    
+        /* border */
+    display: inline-block;
+    color: white;
+    background: #ff452a;
+    padding: 12px 25px;
+    border-radius: 2.5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Mukta';
+    box-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkblue;
+
+}
+.but a:hover{
+    color: white;
+    transition: 0.5s;
+}
+@media(max-width: 720px){
+    .about div .pc{
+        display: none;
+    }
+    .about div .ph{
+        display: block;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        float: center;
+    }
+    .txt{
+        margin: 10px 15px;
+        width: 15%;
+        font-weight: 10px;
+    }
+    .main{
+    width: 100%;
+    max-width: 100%;
+    }
+
+}
+</style>
+
+    <!------------- ABOUT US ----------------->
+    <section class="about">
+        <div class="main">
+            <img src="pics/clown.jpg" class="pc">
+            <div class="txt">
+                <h1>About Clown</h1>
+                <h4>Developper From Tunisia</h4>
+                <p>
+                    <!-- YOU CAN EDIT THE TEXT HERE -->
+                    Hello , Im Clown , Im a Developper From Tunisia
+                    <br>
+                    I Have A Lot Of Skills And I Have Been Learning <br>Programming For 2 Years.
+                    <br>
+                    If You Have A problem Or A Question <br>You Can Contact Me And I Will Help You.
+                    
+                </p>
+                <div class="but">
+                    <a href="contact.html">Contact Me</a>
+
+                </div>
+                <img src="pics/clown.jpg" class="ph"> 
+                <!-- YOU CAN ADD A PIC TO THE pics FOLDER AND WRITE THE IMAGE PATH HERE |src = "image path"| -->
+            </div>
+
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
